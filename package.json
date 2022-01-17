@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "node index.js",
-    "debug": "nodemon index.js",
+    "dev": "nodemon index.js",
     "lint": "eslint **/*.js"
   },
   "keywords": [],
@@ -20,9 +20,10 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
-    "joi": "^17.4.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.5"
   }
 }
