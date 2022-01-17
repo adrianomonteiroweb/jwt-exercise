@@ -8,7 +8,7 @@ const loginController = async (req, res) => {
     return res.status().json({ message: 'Erro na conexão!' });
   }
   return result
-  ? res.status(200).json(result)
+  ? res.status(200).json(result.ops.pop())
   : res.status(422).json({ message: 'Erro ao realizar login!' });
 };
 
